@@ -4,178 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">  
-    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">  
-    <title>My favorites cities</title>
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Grid - Exercício</title>
 </head>
-<body>
+<body class="bg-secondary container">
+
+    <div class="bg-info"><h3 class="text-center text-white pt-3 pb-3 mb-4">Importantes indicadores globais</h3></div>
+
+    <div><h1 class="text-white text-center mb-4">10 países mais populosos do mundo em 2020</h1></div>
+
+    <div class="bg-light pt-3 pb-3 pr-3">
+        
+        <div class="mb-4 p-2 col-12 bg-danger"><h5 class="text-warning text-right mr-2">1° China - 1,404 Bilhões</h5></div>
+        <div class="mb-4 p-2 col-11 bg-success"><h5 class="text-white text-right mr-2">2° Índia - 1,366 Bilhões</h5></div>
+        <div class="mb-4 p-2 col-10 bg-danger"><h5 class="text-white text-right mr-2">3° USA - 330 Milhões</h5></div>
+        <div class="mb-4 p-2 col-9 bg-danger"><h5 class="text-white text-right mr-2">4° Indonésia - 270 Milhões</h5></div>
+        <div class="mb-4 p-2 col-8 bg-success"><h5 class="text-white text-right mr-2">5° Paquistão - 220 Milhões</h5></div>
+        <div class="mb-4 p-2 col-7 bg-warning"><h5 class="text-primary text-right mr-2">6° Brasil - 212 Milhões</h5></div>
+        <div class="mb-4 p-2 col-6 bg-success"><h5 class="text-white text-right mr-2">7° Nigéria - 206 Milhões</h5></div>
+        <div class="mb-4 p-2 col-5 bg-success"><h5 class="text-danger text-right mr-2">8° Bangladesh - 169 Milhões</h5></div>
+        <div class="mb-4 p-2 col-4 bg-danger"><h5 class="text-white text-right mr-2">9° Russia - 146 Milhões</h5></div>
+        <div class="mb-4 p-2 col-3 bg-success"><h5 class="text-danger text-right mr-2">10° México - 127 Milhões</h5></div>
+        
+    </div>
+
+    <small class="text-white">Fonte: Departamento de Assuntos Sociais e Econômicos da ONU</small>
+
+    <hr class="bg-white">
+
+    <div><h1 class="text-white text-center mb-4 mt-2">10 maiores PIB per capita do mundo 2019</h1></div> 
+
+    <div class="bg-light pt-3 pb-3 pr-3">
+
+        <div class="mb-4 p-2 col-12 bg-danger"><h5 class="text-white text-right mr-2">1° Mônaco - US$ 185.741</h5></div>
+        <div class="mb-4 p-2 col-11 bg-primary"><h5 class="text-white text-right mr-2">2° Liechtenstein US$ 179.258</h5></div>
+        <div class="mb-4 p-2 col-10 bg-danger"><h5 class="text-white text-right mr-2">3° Luxemburgo US$ 114.705</h5></div>
+        <div class="mb-4 p-2 col-9 bg-success"><h5 class="text-white text-right mr-2">4° Macau US$ 84.096</h5></div>
+        <div class="mb-4 p-2 col-8 bg-danger"><h5 class="text-white text-right mr-2">5° Suíça US$ 81.994</h5></div>
+        <div class="mb-4 p-2 col-7 bg-success"><h5 class="text-white text-right mr-2">6° Irlanda US$ 78.661</h5></div>
+        <div class="mb-4 p-2 col-6 bg-danger"><h5 class="text-white text-right mr-2">7° Noruega US$ 75.420</h5></div>
+        <div class="mb-4 p-2 col-5 bg-primary"><h5 class="text-white text-right mr-2">8° Islândia US$ 66.945</h5></div>
+        <div class="mb-4 p-2 col-4 bg-danger"><h5 class="text-white text-right mr-2">9° USA US$ 65.281</h5></div>
+        <div class="mb-4 p-2 col-3 bg-danger"><h5 class="text-white text-right mr-2">10° Singapura US$ 65.233</h5></div>
+
+    </div>
+
+    <small class="text-white">Fonte: Banco Mundial 2019</small>
+
+    <hr class="bg-white">
+
+    <footer class="bg-info"><h6 class="text-white text-center">Praticando bootstrap - Rodrigo Costa</h6></footer>
     
-  <header>
-    <div class="collapse bg-danger" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-white">My first project using bootstrap. This project was 100% based on the first example of bootstrap documentation.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-              <li><a href="https://twitter.com/rfcosta85" class="text-white">Follow on Twitter</a></li>
-              <li><a href="https://www.linkedin.com/in/rfcosta85/" class="text-white">Follow on Linkedin</a></li>
-              <li><a href="https://github.com/rfcosta85" class="text-white">Follow on Github</a></li>
-              <li><a href="https://rfcosta85.medium.com/" class="text-white">See my texts on Medium</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="navbar navbar-dark bg-danger shadow-sm">
-      <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand d-flex align-items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-          <strong>Pictures</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
-  </header>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-  <main role="main">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-    <section class="jumbotron text-center bg-light">
-
-      <div class="container">
-        <h1 class="jumbotron-heading text-danger">My Favorites Cities</h1>
-        <p class="lead text-muted">Some beautiful pictures of my favorites place on the world</p>
-      </div>
-    </section>
-
-    <div class="album py-5 bg-light">
-
-      <div class="container">
-        <div class="row">
-          <div class="col mb-4 shadow-sm">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center text-danger">Lisbon - Portugal</p>
-                <small class="text-muted"><p class="text-center">Picture of Claudio Schwarz | @purzlbaum</p></small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-
-    </div>
-
-    <div class="album py-5 bg-light">
-
-      <div class="container">
-        <div class="row">
-          <div class="col mb-4 shadow-sm">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="https://images.unsplash.com/photo-1557675518-7b72340cc437?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center text-danger">Madrid - Spain</p>
-                <small class="text-muted"><p class="text-center">Picture of Manuel Nöbauer</p></small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-           
-    </div>
-
-    <div class="album py-5 bg-light">
-
-      <div class="container">
-        <div class="row">
-          <div class="col mb-4 shadow-sm">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center text-danger">London - England</p>
-                <small class="text-muted"><p class="text-center">Picture of Luke Stackpoole</p></small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-           
-    </div>
-
-    <div class="album py-5 bg-light">
-
-      <div class="container">
-        <div class="row">
-          <div class="col mb-4 shadow-sm">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="https://images.unsplash.com/photo-1610747068838-7a418da43d86?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center text-danger">Buenos Aires - Argentina</p>
-                <small class="text-muted"><p class="text-center">Picture of Alvaro Palacios</p></small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-           
-    </div>
-
-    <div class="album py-5 bg-light">
-
-      <div class="container">
-        <div class="row">
-          <div class="col mb-4 shadow-sm">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="https://images.unsplash.com/photo-1544392827-1fc9d8111cb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center text-danger">Zurich - Switzerland</p>
-                <small class="text-muted"><p class="text-center">Picture of Rico Reutimann</p></small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-           
-    </div>
-
-    <div class="album py-5 bg-light">
-
-      <div class="container">
-        <div class="row">
-          <div class="col mb-4 shadow-sm">
-            <div class="card mb-4 shadow-sm">
-              <img class="card-img-top" src="https://images.unsplash.com/photo-1583764324841-b5ecc3e30d6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=887&q=80" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center text-danger">Oslo - Norway</p>
-                <small class="text-muted"><p class="text-center">Picture of Gunnar Ridderström</p></small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-           
-    </div>
-
-  </main>
-
-  <footer class="text-muted">
-    <div class="container">
-      <p class="float-right">
-        <a href="#">Back to top</a>
-      </p>
-      <p>Album example &copy;Bootstrap, Customized by Rodrigo Costa.</p>
-    </div>
-  </footer>
-
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 </body>
 </html>
