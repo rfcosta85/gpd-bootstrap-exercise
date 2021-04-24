@@ -1,3 +1,114 @@
+:root {
+    /* % of population */
+    --china-width: 100%;
+    --india-width: 97.29%;
+    --usa-width: 40.50%;
+    --indonesia-width: 39.23%;
+    --paquistao-width: 35.67%;
+    --brasil-width: 35.10%;
+    --nigeria-width: 34.67%;
+    --bangladesh-width: 29.04%;
+    --russia-width: 28.40%;
+    --mexico-width: 27.04%;
+
+    /*% of GPD */
+
+    --monaco-width: 100%;
+    --liechtenstein-width:96.51%;
+    --luxemburgo-width: 61.75%;
+    --macau-width: 45.28%;
+    --suica-width: 44.14%;
+    --irlanda-width: 42.35%;
+    --noruega-width: 40.60%;
+    --islandia-width: 36.40%;
+    --usa-gpd-width: 35.15%;
+    --singapura-width: 35,12%;
+}
+
+/* Population Style */
+
+.china {
+    width: var(--china-width);
+}
+
+.india {
+    width: var(--india-width);
+}
+
+.usa {
+    width: var(--usa-width);
+}
+
+.indonésia {
+    width: var(--indonesia-width);
+}
+
+.paquistão {
+    width: var(--paquistao-width);
+}
+
+.brasil {
+    width: var(--brasil-width);
+}
+
+.nigéria {
+    width: var(--nigeria-width);
+}
+
+.bangladesh {
+    width: var(--bangladesh-width);
+}
+
+.russia {
+    width: var(--russia-width);
+}
+
+.méxico {
+    width: var(--mexico-width);
+}
+
+/* GPD Style */
+
+.monaco {
+    width: var(--monaco-width);
+}
+
+.liechtenstein {
+    width: var(--liechtenstein-width);
+}
+
+.luxemburgo {
+    width: var(--luxemburgo-width);
+}
+
+.macau {
+    width: var(--macau-width);
+}
+
+.suica {
+    width: var(--suica-width);
+}
+
+.irlanda {
+    width: var(--irlanda-width);
+}
+
+.noruega {
+    width: var(--noruega-width);
+}
+
+.islandia { 
+    width: var(--islandia-width);
+}
+
+.usa-gpd {
+    width: var(--usa-gpd-width);
+}
+
+.singapura {
+    width: var(--singapura-width);
+}
+
 @media(max-width:767px) {
     h1 {font-size: 1.3em;}
     h3 {font-size: 1em;}
